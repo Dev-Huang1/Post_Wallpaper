@@ -3,9 +3,7 @@ name: Post Bing Wallpaper to Misskey
 # 触发条件
 on:
   schedule:
-    # UTC+8 早上8点 = UTC 0点
-    # cron格式: 分钟 小时 日 月 星期
-    - cron: '0 0 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
