@@ -3,7 +3,7 @@ name: Post Bing Wallpaper to Misskey
 # 触发条件
 on:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
